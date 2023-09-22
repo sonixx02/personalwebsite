@@ -147,18 +147,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 .down {
   margin-top: 0.5rem;
   text-align: center;
 }
-
-
-
-
-
-
-
 
 body {
   overflow-x: hidden;
@@ -180,8 +172,6 @@ body {
   border-bottom: 1px dashed black;
   animation: color-change 1000ms infinite;
 }
-
-
 
 @media (max-width: 768px) {
   .container {
