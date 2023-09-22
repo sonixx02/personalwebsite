@@ -173,7 +173,7 @@ body {
   animation: color-change 1000ms infinite;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
@@ -205,4 +205,32 @@ body {
     font-size: 2rem;
     margin-left: 0;
   }
-}
+} */
+
+
+/* @media (max-width: 1400px) {
+  html {
+    font-size: 75%;
+  }
+} */
+
+
+/* @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+
+  .img {
+    margin-top: 0;
+  }
+} */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+} 
