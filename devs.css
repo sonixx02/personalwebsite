@@ -52,7 +52,7 @@ body {
 
 .text {
   color: antiquewhite;
-  font-size: 10rem;
+  font-size: 8rem;
   margin-right: 2rem;
 }
 
@@ -60,7 +60,8 @@ body {
   color: white;
   font-size: 5rem;
   padding: 10px;
-  animation: color-change 5s infinite;
+  animation: color-change 10s infinite;
+  font-style: italic;
 }
 
 
@@ -113,9 +114,7 @@ body {
 
 
 .img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
+  height:35rem;
   margin-top: 2rem;
 }
 
@@ -170,10 +169,17 @@ body {
     margin-top: 20px;
   }
 
-  .img {
-    width: 100%;
-    margin-top: 0;
+  .playful{
+    font-size: 2rem;
+
   }
+
+  .img {
+    /* width: 100%; */
+    margin-top: 0;
+    height: min-content;
+  }
+
 
   .navbar {
     width: 100%;
@@ -189,6 +195,11 @@ body {
 
   .text1 {
     font-size: 1.5rem;
-    margin-left: 0;
+    margin-left: 6rem;
+  }
+
+  .logoimg{
+    margin-bottom: -67px;
+    margin-right: 25.2rem;
   }
 }
